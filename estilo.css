@@ -1,0 +1,134 @@
+*{
+    box-sizing:border-box;
+
+}
+body{
+    height:100vh;
+    margin:0;
+    padding:0;
+    background:-webkit-linear-gradient(left,#47967F,#ADC273);
+    padding-top:10%;
+    
+}
+header{
+    /*usado em todas as páginas*/
+    position:fixed;
+    top:0;
+    left:0;
+    height:10%;
+    width:100%;
+    display:flex;
+    background-color: rgb(0, 0, 0, 0.5);
+    justify-content: space-around;
+}
+header button{
+    /*usado em todas as páginas*/
+    background-color:rgb(0,0,0,0);
+    width:15%;
+    border-width:0 0 5px 0;
+    color:white;
+    font-weight: bold;
+    font-size:15px;
+}
+header button:hover{
+    /*usado em todas as páginas*/
+    background-color:rgb(0,0,0,0.3);
+}
+.menu{
+    /*usado em todas as páginas*/
+    height:60%;
+    display:flex;
+}
+.titulo{
+    /*usado em todas as páginas*/
+    width:70%;
+    text-align: center;
+    font-family:sans-serif;
+    color:white;
+}
+.titulo h1{
+    /*usada em todas as páginas*/
+    font-size:10vh;
+}
+.conteudo{
+    /*usada em todas as páginas*/
+    margin-top:5%;
+    background-color: #fff;
+    background:url("imagens/arara.jpg") no-repeat, url("imagens/tucano.jpg") bottom right no-repeat;
+    padding:5% 10% 5% 10%;
+    font-family:sans-serif;
+    text-align: justify;
+}
+.conteudo h1{
+    /*usada em index.html e info.html*/
+    color:#2C7C7D;
+}
+.conteudo p{
+    /*usada em info.html e index.html*/
+    font-weight: bold;
+}
+.conteudo div{
+    /*usada em todas as páginas*/
+    background-color:#fff;
+    padding:10%;
+    border-radius:15%;
+}
+.mico{
+    /*usada em index.html*/
+    /*refere-se a imagem do Mico-Leão-Dourado*/
+    padding:1% 0 1% 0;
+    width:30%;
+    height:100%;
+}
+.mico div{
+    /*usada em index.html*/
+    background-image:url("imagens/mico.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center;
+    width:90%;
+    height:100%;
+    border-radius:30%;
+    box-shadow:inset 0 0 30px #ADC273; 
+}
+hr{
+    /*usada em index.html*/
+    border:0;
+    height:4px;
+    background-color:#FFCA7E;
+}
+table{
+    /*usada em info.html e animais.html*/
+    width:100%;
+    font-weight:bold;
+}
+.infraestrutura td{
+    /*usada em info.html*/
+    width:50%;
+}
+table .txtLeft{
+    /*Usado em info.html*/
+    padding-right: 10%;
+}
+.img{
+    /*usado em info.html e animais.html*/
+    margin:10%;
+    background-size:cover;
+    background-position: center;
+    background-repeat:no-repeat;
+    width:25%;
+}
+.menuAnimais{
+    /*usado em animais.html*/
+    height:250px;
+    padding:3%;
+    font-size:30px;
+    border:6px;
+    border-color:#fff; 
+}
+.animais td{
+    width:50%;
+    height:30vh;
+    text-align: center;
+    font-size: 20px;    
+}
