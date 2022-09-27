@@ -6,7 +6,7 @@
     <img  height="30" width="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
 </div>
 <h2>Objetivo:</h2>
-<p> Criar um site para o zoológico de Guarulhos com as tecnologias HTML, CSS e JavaScript para o zoológico de Guarulhos</p>
+<p> Criar um site para o zoológico de Guarulhos com as tecnologias HTML, CSS e JavaScript.</p>
 <h2>Detalhes dados pelo professor para a criação:</h2>
 <ul>
     <li>Criar um site que disponibilize dados do zoológico, como localização, infraestrutura, etc.</li>
